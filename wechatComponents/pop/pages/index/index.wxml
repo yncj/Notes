@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+  <pop id="dialog" bind:cancelEvent="cancel" bind:confirmEvent="confirm"></pop>
+  <button type='primary' bindtap='show'>ClickMe!</button>
+</view>

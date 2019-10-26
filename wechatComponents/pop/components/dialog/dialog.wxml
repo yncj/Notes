@@ -1,0 +1,12 @@
+<!--components/dialog/dialog.wxml-->
+<view class='pop_container' hidden='{{isShow}}'>
+  <view class='pop_mark'></view>
+  <view class='pop_content'>
+    <view class='pop_title'>{{title}}</view>
+    <view class='pop_desc'>{{desc}}</view>
+    <view class='pop_button'>
+      <view class='pop_btn' catchtap='_cancelEvent'>{{cancelText}}</view>
+      <view class='pop_btn' catchtap='_fonfirmEvent'>{{confirmText}}</view>
+    </view>
+  </view>
+</view>
